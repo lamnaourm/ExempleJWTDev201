@@ -31,7 +31,7 @@ app.get('/login', (req, res) => {
 
 })
 
-// 4e5738502f7e397d52fe7e58ef53083446640380f6efd1c39aec9938b46adec52c9fa156e00d6b6a37e7086870ef79d6
+// require('crypto').randomBytes(48).toString('hex')
 
 
 app.get('/data', authenticateToken, (req, res) => {
